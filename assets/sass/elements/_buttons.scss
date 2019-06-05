@@ -1,0 +1,112 @@
+// Кнопки
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  background: none;
+  outline: 0 none;
+  border: 0 none;
+  border-radius: 0;
+  padding: 8px 25px;
+  background-color: #000;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.load{
+  width: 250px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 15px 0;
+  border: 1px solid #c77e64;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #c77e64;
+  font-family: 'Playfair-Display', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+
+  &:hover{
+    background: #f8f7f3;
+    transition: .4s;
+  }
+
+  &:focus{
+    outline: 0;
+  }
+}
+
+.button-wrap{
+  max-width: 695px;
+  text-align: center;
+  padding-bottom: 65px;
+  margin: 0 auto;
+}
+
+.search-btn{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 28px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+
+  //@media(max-width: 768px){
+  //  padding-top: 20px;
+  //}
+
+  & .icon-magnifying-glass, .icon-close{
+    font-weight: bold;
+    font-size: 15px;
+    color: #505050;
+
+    &:hover{
+      transition: .3s;
+      color: #c77e64;
+    }
+  }
+
+  &:focus{
+    outline: 0;
+  }
+}
+
+.open{
+  margin-top: 0!important;
+
+  @media (max-width: 768px) {
+    margin-top: 17px!important;
+  }
+}
+
+.burger-menu{
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-family: Sintony,sans-serif;
+  color: #5d7f71;
+  display: none;
+  //padding-top: 30px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 10;
+
+  @media (max-width: 768px) {
+    display: flex;
+    padding-left: 0;
+    order: 1;
+    align-items: stretch;
+    //margin-top: 20px;
+  }
+
+  &:focus{
+    outline: 0;
+  }
+
+  span{
+    padding-right: 10px;
+  }
+}

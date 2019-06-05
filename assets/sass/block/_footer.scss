@@ -1,0 +1,297 @@
+.page-footer {
+	position: relative;
+	background: #232121;
+	padding: 50px 0;
+
+	@media (max-width: 768px) {
+		padding: 30px 0;
+	}
+
+	.responsive-wrap{
+		@media (max-width: 500px) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}
+
+.left-block{
+
+	.menu-footer-category-container, .menu-footer-bar-container, .widget_nav_menu{
+		height: 100%;
+	}
+
+	&__content{
+		color: #ffffff;
+		font-family: Sintony, sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		width: 205px;
+		margin-right: 85px;
+
+		@media(max-width: 840px){
+			margin-right: 40px;
+		}
+
+		@media(max-width: 500px){
+			margin-right: 0;
+			text-align: center;
+		}
+
+		h2{
+			font-size: inherit;
+			margin: 0;
+			font-family: 'Sintony', sans-serif;
+			font-weight: bold;
+		}
+
+		p{
+			line-height: 27px;
+			font-family: "Open-Sans", sans-serif;
+			font-weight: normal;
+			text-transform: none;
+		}
+
+		a{
+			font-size: 15px;
+			font-family: Playfair-Display, sans-serif;
+			font-style: italic;
+			color: #c77e64;
+			text-transform: none;
+		}
+	}
+
+	@media (max-width: 500px) {
+		section{
+			margin-bottom: 0;
+			p{
+				margin-bottom: 5px;
+			}
+		}
+
+		margin-bottom: 30px;
+	}
+
+}
+
+.right-block{
+	position: relative;
+	width: 100%;
+
+	@media (max-width: 910px) {
+		right: 0;
+	}
+
+	@media (max-width: 715px) {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	@media (max-width: 500px) {
+		text-align: -webkit-center;
+	}
+
+	.menu{
+		list-style-type: none;
+		margin: 0;
+		padding-left: 40px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		@media (max-width: 768px) {
+			padding-left: 25px;
+		}
+
+		@media (max-width: 715px) {
+			flex-direction: row;
+			padding-left: 0;
+		}
+
+		li{
+			&:not(:last-child){
+				margin-bottom: 22px;
+
+				@media (max-width: 715px) {
+					margin-bottom: 0;
+				}
+			}
+
+			@media (max-width: 715px) {
+				padding: 5px;
+			}
+		}
+
+		a{
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 13px;
+			font-family: Sintony, sans-serif;
+			line-height: 0.8;
+
+			&:hover{
+				transition: .4s;
+				color: #c77e64;
+			}
+		}
+	}
+
+	&__social{
+		height: 100%;
+		position: relative;
+	}
+
+	&__category{
+		border-left: 1px solid #fff;
+		height: 100%;
+
+		@media (max-width: 715px) {
+			border-left: none;
+			margin-top: -9px;
+		}
+
+		@media (max-width: 500px) {
+			margin-top: 0;
+		}
+
+		.widget_nav_menu{
+			height: 100%;
+		}
+
+		& .category-nav{
+			list-style-type: none;
+			margin: 0;
+		}
+
+		.pages{
+			margin-left: 115px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+
+	&__navigation{
+		height: 100%;
+		border-left: 1px solid #fff;
+		margin-left: 110px;
+
+		@media (max-width: 768px) {
+			margin-left: 40px;
+		}
+
+		@media (max-width: 715px) {
+			border-left: none;
+			margin: 0 auto 10px;
+		}
+
+		@media (max-width: 500px) {
+			border-left: none;
+			margin: 0 auto 30px;
+		}
+	}
+
+	.widget{
+		height: 100%;
+		margin-bottom: 0;
+
+		@media (max-width: 910px) {
+			margin-bottom: 0;
+		}
+	}
+
+	h6{
+		margin-top: 0;
+		text-align: center;
+		color: #ffffff;
+		font-family: 'Sintony', sans-serif;
+		font-size: 13px;
+		font-weight: normal;
+
+		@media(max-width: 715px){
+			margin-bottom: 10px;
+		}
+	}
+
+	a{
+		color: #ffffff;
+
+		&:hover{
+			transition: .4s;
+			color: #c77e64;
+		}
+	}
+
+}
+
+.social-holder{
+
+	li{
+		padding: 7px 14px;
+
+		&:not(:last-child){
+			border-right: 1px solid #ffffff;
+		}
+
+		&:last-child{
+			padding-right: 0;
+		}
+
+		&:first-child{
+			padding-left: 0;
+		}
+
+		span{
+			font-size: 20px;
+		}
+	}
+}
+
+.footer-block{
+	height: 96%;
+
+	@media (max-width: 715px) {
+		flex-direction: column;
+		align-items: baseline;
+		margin-top: -5px;
+	}
+
+	section{
+		display: flex;
+		align-items: center;
+	}
+}
+
+#menu-footer-bar{
+	@media (max-width: 715px) {
+		position: relative;
+		bottom: 10px;
+	}
+
+	@media (max-width: 500px) {
+		bottom: 0;
+	}
+}
+
+.page-footer__inner{
+	
+	&>.container{
+		@media (max-width: 500px) {
+			flex-direction: column;
+		}
+
+		.left-block__content{
+			@media (max-width: 500px) {
+				margin: 0 auto;
+			}
+		}
+	}
+	
+	.responsive-wrap{
+		@media(max-width: 768px){
+			width: auto;
+		}
+	}
+}

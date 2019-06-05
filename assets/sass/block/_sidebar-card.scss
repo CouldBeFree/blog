@@ -1,0 +1,81 @@
+.sidebar-card{
+  max-width: 320px;
+  background: #ffffff;
+  text-align: center;
+  padding-bottom: 30px;
+
+  @media (max-width: 1024px) {
+    max-width: unset;
+  }
+
+  @media (max-width: 850px) {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  &__author{
+    text-transform: uppercase;
+    color: #515151;
+    font-weight: normal;
+    font-size: 17px;
+
+    &:hover{
+      color: #515151;
+    }
+  }
+
+  a{
+
+    &:hover{
+      color: #515151;
+
+      & .sidebar-nav{
+        transition: .4s;
+        color: #c77e64;
+      }
+    }
+  }
+
+  &__image{
+    max-height: 190px;
+    overflow: hidden;
+
+    img{
+      max-width: unset;
+      width: 100%;
+    }
+  }
+
+  .sidebar-nav{
+    font-family: 'Playfair-Display', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-top: 17px!important;
+    margin-bottom: 15px!important;
+    color: #515151;
+
+    &:hover{
+      color: #c77e64;
+    }
+  }
+}
+
+#text-2{
+  margin: 0;
+}
+
+.textwidget{
+  &>a{
+    &:hover .sidebar-nav{
+      transition: .4s;
+      color: #c77e64;
+    }
+  }
+}
+
+#text-4{
+  p{
+    margin: 0;
+  }
+}

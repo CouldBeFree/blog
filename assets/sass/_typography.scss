@@ -1,0 +1,175 @@
+//  Подключения шрифтов
+
+// font-family: 'OpenSans-Bold';
+@font-face {
+  font-family: 'Open-Sans';
+  font-weight: bold;
+  font-style: normal;
+  src:  local('Open-Sans'), local('Open-Sans');
+  src:  url('../fonts/OpenSans-Bold/OpenSans-Bold.ttf')format('truetype'),
+  url('../fonts/OpenSans-Bold/OpenSans-Bold.woff') format('woff'),
+  url('../fonts/OpenSans-Bold/OpenSans-Bold.svg') format('svg'),
+  url('../fonts/OpenSans-Bold/OpenSans-Bold.eot');
+}
+
+// font-family: 'OpenSans-Bold Italic';
+@font-face {
+  font-family: 'Open-Sans';
+  font-weight: bold;
+  font-style: italic;
+  src:  local('OpenBold-SansItalic'), local('Open-Sans');
+  src:  url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf')format('truetype'),
+  url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff') format('woff'),
+  url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.svg') format('svg'),
+  url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot');
+}
+
+// font-family: 'OpenSans-Italic';
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  font-style: italic;
+  src:  local('OpenSans-Ialic'), local('Open-Sans');
+  src:  url('../fonts/OpenSans-Italic/OpenSans-Italic.ttf')format('truetype'),
+  url('../fonts/OpenSans-Italic/OpenSans-Italic.woff') format('woff'),
+  url('../fonts/OpenSans-Italic/OpenSans-Italic.svg') format('svg'),
+  url('../fonts/OpenSans-Italic/OpenSans-Italic.eot');
+}
+
+// font-family: 'OpenSans-Regular';
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  src:  local('Open-Sans'), local('Open-Sans');
+  src:  url('../fonts/OpenSans/OpenSans-Regular.ttf')format('truetype'),
+  url('../fonts/OpenSans/OpenSans.woff') format('woff'),
+  url('../fonts/OpenSans/OpenSans.svg') format('svg'),
+  url('../fonts/OpenSans/OpenSans.eot');
+}
+
+// font-family: 'PlayfairDisplay-Black';
+@font-face {
+  font-family: 'Playfair-Display';
+  font-weight: normal;
+  src:  local('PlayfairDisplay-Black'), local('PlayfairDisplay-Black');
+  src:  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.ttf')format('truetype'),
+  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.svg') format('svg'),
+  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.eot');
+}
+
+// font-family: 'PlayfairDisplay-Italic-Black';
+@font-face {
+  font-family: 'Playfair-Display';
+  font-weight: normal;
+  font-style: italic;
+  src:  local('PlayfairDisplayBlack-Italic'), local('PlayfairDisplayBlack-Italic');
+  src:  url('../fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.ttf')format('truetype'),
+  url('../fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.svg') format('svg'),
+  url('../fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.eot');
+}
+
+// font-family: 'PlayfairDisplay-Bold';
+@font-face {
+  font-family: 'Playfair-Display';
+  font-weight: bold;
+  src:  local('PlayfairDisplayBlack-Bold'), local('PlayfairDisplayBlack-Bold');
+  src:  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf')format('truetype'),
+  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.svg') format('svg'),
+  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.eot');
+}
+
+// font-family: 'PlayfairDisplayBold-Italic';
+@font-face {
+  font-family: 'Playfair-Display';
+  font-weight: bold;
+  font-style: italic;
+  src:  local('PlayfairDisplayBlack-BoldItalic'), local('PlayfairDisplayBlack-BoldItalic');
+  src:  url('../fonts/PlayfairDisplay-BoldItalic/PlayfairDisplay-BoldItalic.ttf')format('truetype'),
+  url('../fonts/PlayfairDisplay-BoldItalic/PlayfairDisplay-BoldItalic.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-BoldItalic/PlayfairDisplay-BoldItalic.svg') format('svg'),
+  url('../fonts/PlayfairDisplay-BoldItalic/PlayfairDisplay-BoldItalic.eot');
+}
+
+// font-family: 'PlayfairDisplay-Italic';
+@font-face {
+  font-family: 'Playfair-Display';
+  font-weight: normal;
+  font-style: italic;
+  src:  local('PlayfairDisplay-Italic'), local('PlayfairDisplay-Italic');
+  src:  url('../fonts/PlayfairDisplay-Italic/PlayfairDisplay-Italic.ttf')format('truetype'),
+  url('../fonts/PlayfairDisplay-Italic/PlayfairDisplay-Italic.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Italic/PlayfairDisplay-Italic.svg') format('svg'),
+  url('../fonts/PlayfairDisplay-Italic/PlayfairDisplay-Italic.eot');
+}
+
+// font-family: 'PlayfairDisplay-Regular';
+@font-face {
+  font-family: 'Playfair-Display';
+  font-weight: normal;
+  src:  local('PlayfairDisplay-Regular'), local('PlayfairDisplay-Regular');
+  src:  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.ttf') format('truetype'),
+  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot') format('svg');
+}
+
+// font-family: 'Sintony-Regular';
+@font-face {
+  font-family: 'Sintony';
+  font-weight: normal;
+  src:  local('Sintony-Regular'), local('Sintony-Regular');
+  src:  url('../fonts/Sintony/Sintony.woff') format('woff'),
+  url('../fonts/Sintony/Sintony.ttf') format('truetype'),
+  url('../fonts/Sintony/Sintony.svg') format('svg'),
+  url('../fonts/Sintony/Sintony.eot');
+}
+
+// font-family: 'Sintony-Bold';
+@font-face {
+  font-family: 'Sintony';
+  font-weight: bold;
+  src:  local('Sintony-Regular'), local('Sintony-Regular');
+  src:  url('../fonts/Sintony-Bold/Sintony-Bold.woff') format('woff'),
+  url('../fonts/Sintony-Bold/Sintony-Bold.ttf') format('truetype'),
+  url('../fonts/Sintony-Bold/Sintony-Bold.svg') format('svg'),
+  url('../fonts/Sintony-Bold/Sintony-Bold.eot');
+}
+
+// font-family: 'Icomoon';
+@font-face {
+  font-family: 'Icomoon';
+  font-weight: normal;
+  font-style: normal;
+  src:  local('Icomoon'), local('Icomoon');
+  src:  url('../fonts/icomoon/icomoon.ttf')format('truetype'),
+        url('../fonts/icomoon/icomoon.woff')format('woff'),
+        url('../fonts/icomoon/icomoon.eot')format('truetype');
+}
+
+// Заголовки
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-family;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}

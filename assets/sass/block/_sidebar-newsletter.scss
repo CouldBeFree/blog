@@ -1,0 +1,104 @@
+.sidebar-mail{
+  padding: 50px 8px 40px;
+  background: #ffffff;
+  border-top: 3px solid #c77e64;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: -webkit-center;
+  text-align: center;
+  width: 320px;
+
+  @media (max-width: 1200px) {
+    width: auto;
+  }
+
+  @media(max-width: 992px){
+    max-width: 320px;
+  }
+
+  @media (max-width: 850px) {
+    padding: 35px 8px 35px;
+    margin: 30px auto;
+    max-width: 320px;
+    width: auto;
+  }
+
+  @media (max-width: 380px) {
+    width: auto;
+  }
+
+  input{
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    background: #ffdfcf;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #515151;
+    font-family: Open-Sans, sans-serif;
+    line-height: 1.2;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill{
+      -webkit-text-fill-color: #000000;
+      transition: background-color 5000s ease-in-out 0s;
+    }
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #515151;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #515151;
+      opacity: 1;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #515151;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #515151;
+      opacity: 1;
+    }
+
+
+    @media (max-width: 768px) {
+      font-size: 15px;
+    }
+  }
+
+  .mail-form{
+    position: relative;
+
+    .wpcf7-validation-errors, .wpcf7-not-valid-tip{
+      display: none!important;
+    }
+
+    input[type=submit]{
+      color: #d4947c;
+      cursor: pointer;
+      position: relative;
+      top: -38px;
+      right: -115px;
+
+      @-moz-document url-prefix() {
+          top: -35px;
+      }
+
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+
+  p{
+    font-family: Playfair-Display, sans-serif;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #505050;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

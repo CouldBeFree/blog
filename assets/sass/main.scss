@@ -1,0 +1,30 @@
+//  Импорт файлов
+
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'base';
+@import 'typography';
+@import 'sprite';
+
+@import 'wp-classes';
+
+@import 'elements/form-elements';
+@import 'elements/buttons';
+
+@import 'block/header';
+@import 'block/footer';
+@import 'block/article';
+@import 'block/additional-posts';
+@import 'block/sidebar-card';
+@import 'block/sidebar-newsletter';
+@import 'block/sidebar-contact';
+@import 'block/category-card';
+
+@import 'pages/home';
+@import 'pages/digital';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/post-page';
+@import 'pages/404';
+@import 'pages/search';
